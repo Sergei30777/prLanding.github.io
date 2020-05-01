@@ -1,0 +1,336 @@
+@media only screen and (max-width : 1200px) {
+.nav 
+{
+display: none;
+}
+.heder__mob{
+display: none;
+}
+.container{
+max-width: 375px;
+}
+/*********
+***section*******/
+.section{
+padding-top:85px;
+
+}
+.content2 {
+max-width: 338.61px;
+margin: 0 auto;
+}
+.title{
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 132.83%;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.section-p{
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 135.84%;
+color: #FFFFFF;
+
+}
+.button__mob{
+width: 338.61px;
+margin-top: 26px;
+}
+.content3{
+max-width: 338px;
+margin: 0 auto;
+display: block;
+padding: 0;
+
+}
+.section2__text{
+width: 311px;
+padding-top: 36px;
+}
+.title2{
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 138.6%;
+text-align: center;
+letter-spacing: -0.07em;
+text-transform: uppercase;
+color: #E3B873;
+margin: 0;
+}
+.section2-p{
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 158.48%;
+text-align: center;
+color: #FFFFFF;
+}
+.block__1{
+text-align: center;
+}
+.im{
+display: none;
+}
+.im__mob{
+display: flex;
+background-image: url(imeges/sla.jpg);
+max-width: 340px;
+height: 241.35px;
+	}
+.leftslaid,.richtslaid{
+border: none;
+background-image: url(imeges/leftslaid.jpg);
+width: 36px;
+height: 36px;
+border-radius: 50%;
+margin-left:20px;
+margin-top:103px;
+}
+.richtslaid{
+background-image: url(imeges/richtslaid.jpg);
+margin-left: 210px;
+}
+.section2__nav-imegs{
+	display: none;
+}
+.imeges{
+	display: none;
+}
+.section2__icon{
+max-width: 224px;
+height: 81px;
+margin: 158px 76px;
+}
+.icon{
+margin-left: 50px;
+}
+.title4{
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 138.6%;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+/**********
+section3****/
+.section3{
+background: #131313;
+}
+
+.section3-arbait{
+height: 207px;
+max-width: 340px;
+background-image:url(imeges/arbait.jpg);
+margin-left:18px;
+padding: 85px 151px;
+max-width: 338px;
+margin: 0 auto;
+display: block;	
+}
+.section3-arbait__icon{
+width: 37px;
+height: 37px;
+padding: 12.62px;
+}
+.play{
+width: 12px;
+height: 12px;
+}
+.text-pr{
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 169.8%;
+text-align: center;
+color: #FFFFFF;
+}
+.section3-form{
+max-width: 338px;
+margin: 0 auto;
+display: block;
+margin-top: 61.05px;
+}
+.section3-form__bloc_1{
+margin-bottom: 61px;
+}
+.section3-form__bloc{
+display: block;
+}
+.mobform{
+width: 340px;
+}
+.section3-form__bloc_in{
+	background:#131313; 
+}
+.section3-form__bloc_label{
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 21px;
+color: rgba(255, 255, 255, 0.5);
+}
+.span-mob{
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 138.72%;
+color: #FFFFFF;
+}
+.mob-bacraund{
+background: #FFFFFF;
+}
+.section3__icon1{
+max-width: 338px;
+margin: 0 auto;
+display: block;
+}
+.title5{
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 138.6%;
+text-align: center;
+text-transform: uppercase;
+color: #181818;
+}
+.icon1{
+margin-left: 120px;
+}
+.section3__interior{
+display: block;
+margin-left: 18px;
+max-width: 375px;
+margin: 0 auto;
+}
+/**************
+section4****/
+.section4{
+display: none;
+}
+.section5{
+display: none;
+}
+.section5__container_h1-mob{
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 138.6%;
+text-align: center;
+text-transform: uppercase;
+color: #E3B873;
+display: block;
+margin: 0 ;
+}
+
+.imege-mob{
+background-image: url();
+width: 340px;
+height: 242px;
+display: block;
+max-width: 338px;
+margin: 0 auto;
+}
+.imegesect{
+bottom: -110px;
+position: relative;
+}
+.section6{
+display: none;
+}
+.section7{
+background:#131313;
+position: static;
+padding-top: 120px; 
+}
+.section7-container{
+position: static;
+width: 883px;
+height: 445.32px;
+background: #131313;
+}
+.section7__form{
+padding:0;
+max-width: 340px;
+}
+.section7__form_name-tel{
+display: block;
+max-width:340px
+margin:0 auto;
+}
+.section7__form_block1,.section7__form_block2{
+width:340px;
+margin-left: 17px;
+margin-bottom: 63px;
+}
+.submitform3{
+width: 340px;
+margin-left: 10px;
+
+}
+.section7__h1{
+position: static;
+margin-top:41px;
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #E3B873;
+}
+.section7__icon{
+position: static;
+margin-left:121px;
+}
+.section7_kart2{
+position: static;
+height: 255px;
+max-width: 340px;
+order: 1;
+margin-left: 18px;
+margin-top: 180px;
+}
+.section7__form_checkbox{
+	margin-left:10px;
+}
+.section7_overlo{
+display: none;
+}
+.container__mob{
+flex-flow: wrap;
+display: flex;
+}
+.container__h1-img{
+	order: 2;
+}
+.footer{
+display: none;
+}
+.section7_kart2{
+	display: block;
+}
+.checkbox-lab{
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 163.68%;
+color: #FFFFFF;
+}
