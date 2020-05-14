@@ -493,8 +493,7 @@ body * {
 
 .section4__Leave_li {
     list-style-type: none;
-    margin-top:
-        font-family: Nunito Sans;
+    font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -575,7 +574,7 @@ body * {
 }
 
 .section4__form_span {
-    .font-family: Nunito Sans;
+    font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
