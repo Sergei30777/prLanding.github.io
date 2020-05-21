@@ -17,10 +17,8 @@ body * {
     justify-content: space-between;
     height: 83px;
     align-items: center;
-}
-
-.nav {
-    display: ;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .header-navigation {
@@ -238,6 +236,18 @@ body * {
 .im {
     position: relative;
     top: 79.64px;
+}
+
+.dot {
+    margin-left: 17.54px;
+}
+
+.slaid-richt {
+    margin-left: 29px;
+}
+
+.slaid-left {
+    margin-right: 11.46px;
 }
 
 .section2-navigation {
@@ -585,7 +595,7 @@ body * {
 .section4__form_in {
     background: #131313;
     border: none;
-    color: #FFFFFF;
+    width: 75px;
 }
 
 .section4__form_checkbox {
@@ -856,7 +866,7 @@ body * {
     width: 883px;
     height: 445.32px;
     background: #131313;
-    left: 289px;
+    margin: 0 auto;
     top: -223px;
     z-index: 1;
 }
@@ -889,10 +899,13 @@ body * {
     margin-right: 57.99px;
 }
 
+
+
 .section7__form_block2 {
     width: 462px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     overflow: hidden;
+    margin-top: 48px;
 }
 
 .section7__form_checkbox {
@@ -930,11 +943,19 @@ body * {
     z-index: 1;
 }
 
+.container__h1-img {
+    display: flex;
+}
+
 .section7__icon {
     position: relative;
     z-index: 1;
-    left: 650px;
     top: -150px;
+    margin: 0 auto;
+}
+
+.section7_kart {
+    display: flex;
 }
 
 .section7_kart2 {
@@ -942,8 +963,9 @@ body * {
     z-index: 1;
     height: 456px;
     width: 925px;
-    left: 255px;
     top: -150px;
+    margin: 0 auto;
+    background-image: url(imeges/kart.jpg);
 }
 
 .masage,

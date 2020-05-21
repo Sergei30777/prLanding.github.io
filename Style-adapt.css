@@ -23,7 +23,7 @@
     }
 
     .content2 {
-        max-width: 338.61px;
+        max-width: 340px;
         margin: 0 auto;
     }
 
@@ -53,7 +53,7 @@
     }
 
     .content3 {
-        max-width: 338px;
+        width: 340px;
         margin: 0 auto;
         display: block;
         padding: 0;
@@ -61,8 +61,11 @@
     }
 
     .section2__text {
-        width: 311px;
+        width: 340px;
         padding-top: 36px;
+        margin: 0 auto;
+
+
     }
 
     .title2 {
@@ -75,8 +78,12 @@
         letter-spacing: -0.07em;
         text-transform: uppercase;
         color: #E3B873;
-        margin: 0;
         display: block;
+    }
+
+    .section2 {
+        margin: 0 auto;
+        display: flex;
     }
 
     .section2-p {
@@ -87,6 +94,7 @@
         line-height: 158.48%;
         text-align: center;
         color: #FFFFFF;
+        display: flex;
     }
 
     .im {
@@ -95,25 +103,47 @@
 
     .im__mob {
         display: flex;
-        background-image: url(imeges/sla.jpg);
-        max-width: 340px;
-        height: 241.35px;
+        width: 340px;
+        height: 242px;
+
+
+
+
     }
 
-    .leftslaid,
-    .richtslaid {
+    .im__mob-back {
+        background-image: url(imeges/sla.jpg);
+    }
+
+    .button-container {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 312px;
+
+    }
+
+
+    .button_slaid {
         border: none;
-        background-image: url(imeges/leftslaid.jpg);
         width: 36px;
         height: 36px;
         border-radius: 50%;
-        margin-left: 20px;
-        margin-top: 103px;
+
+    }
+
+    .leftslaid {
+        background-image: url(imeges/leftslaid.jpg);
+
     }
 
     .richtslaid {
         background-image: url(imeges/richtslaid.jpg);
-        margin-left: 210px;
+    }
+
+    .leftslaid,
+    .richtslaid {
+        margin-top: 103px;
     }
 
     .section2__nav-imegs {
@@ -141,13 +171,14 @@
         max-height: 30.73px;
     }
 
-    .block__1 {
-        margin-left: 18px;
-
+    .block {
+        margin: 0 auto;
     }
 
+    .block__1 {}
+
     .block__2 {
-        margin-left: 31px;
+        margin-left: 31;
     }
 
     .title3,
@@ -189,7 +220,7 @@ section3****/
         max-width: 338px;
         margin: 0 auto;
         display: block;
-        top: 0px;
+        top: 0;
 
     }
 
@@ -244,7 +275,7 @@ section3****/
 
     .mobform {
         width: 340px;
-        margin-top: 61px;
+        margin-top: 40px;
 
     }
 
@@ -297,9 +328,9 @@ section3****/
 
     .section3__interior {
         display: block;
-        margin-left: 18px;
-        max-width: 375px;
+        width: 375px;
         margin: 0 auto;
+        height: 2250px;
     }
 
     .section3__interior_2 {
@@ -313,7 +344,7 @@ section4****/
 
 
     .section5 {
-        display: block;
+        display: flex;
         margin: 0 auto;
     }
 
@@ -326,26 +357,23 @@ section4****/
 
     .section5__container_h1 {
         text-align: center;
-        margin: 0;
+
     }
 
     .section5__container_nav {
         margin: 0 auto;
 
+
     }
 
-    .imege-mob {
-        background-image: url();
-        width: 340px;
-        height: 242px;
-        display: block;
-        max-width: 338px;
+    .h1-img-mob {
+        position: relative;
+        bottom: 250px;
         margin: 0 auto;
     }
 
-    .imegesect {
-        bottom: -110px;
-        position: relative;
+    .imege-mob {
+        background-image: url(imeges/sect6.jpg);
     }
 
     .section6 {
@@ -356,6 +384,7 @@ section4****/
         background: #131313;
         position: static;
         padding: 120px 0px 49px 0px;
+
     }
 
     .section7-container {
@@ -399,6 +428,7 @@ section4****/
         text-align: center;
         text-transform: uppercase;
         color: #E3B873;
+        order: 2;
     }
 
     .section7__icon {
@@ -411,19 +441,21 @@ section4****/
     .section7_kart2 {
         position: static;
         height: 255px;
-        max-width: 360px;
+        width: 340px;
         order: 1;
         margin: 0 auto;
+        background-image: url(imeges/kart.jpg);
 
     }
 
     .section7_kart {
         margin-top: 180px;
+        display: flex;
     }
 
     .section7__form_checkbox {
         margin-left: 10px;
-        width: 338px;
+        width: 340px;
     }
 
     .section7_overlo {
@@ -436,7 +468,8 @@ section4****/
     }
 
     .container__h1-img {
-        order: 2;
+        order: 3;
+        margin: 0 auto;
     }
 
     .footer,
@@ -453,9 +486,7 @@ section4****/
         display: none;
     }
 
-    .section7_kart2 {
-        display: block;
-    }
+
 
     .checkbox-lab {
         font-family: Nunito Sans;

@@ -23,10 +23,12 @@
                         <li class="header-navigation__item"><a href="#">PROJECTS</a></li>
                         <li class="header-navigation__item"><a href="#">MEASUREMENT</a></li>
                         <li class="header-navigation__item"><a href="#">TEAM</a></li>
+                        <li class="header-navigation__item"><a href="#">REVIEWS</a></li>
+                        <li class="header-navigation__item"><a href="#">CONTACTS</a></li>
                     </ul>
                 </nav>
                 <span class="header-navigation__tel"><a href=" tel:+7(928)7683239">+7 (928) 768-32-39</a></span>
-                <button class="button heder__mob">Regest a call</button>
+                <button class="button heder__mob">Request a call</button>
             </div>
         </header>
         <main class="main">
@@ -48,7 +50,12 @@
                         <div class="section2__text">
                             <h1 class="title2">Completed<br> projects</h1>
                             <p class="section2-p"> Only a small part of the work performed by our company is presented<br class="br"> on the site. For 14 years on in the construction<br class="br"> market we have made happy more than 1000 families</p>
-                            <div class="im__mob"><button class="leftslaid"></button><button class="richtslaid"></button></div>
+                            <div class="im__mob im__mob-back">
+                                <div class="button-container">
+                                    <button class="button_slaid leftslaid"></button><button class="button_slaid richtslaid">
+                                    </button>
+                                </div>
+                            </div>
                             <div class="block">
                                 <div class="block__1">
                                     <h3 class="title3">City</h3>
@@ -63,7 +70,11 @@
                                     <p class="block-p"> Upon request</p>
                                 </div>
                             </div>
-                            <div class="im"><img src="imeges/slaid.jpg">
+                            <div class="im"><img src="imeges/slaid-left.jpg" class="slaid-left">
+                                <img src="imeges/aktiv-dot.jpg" class="dot">
+                                <img src="imeges/dot.jpg" class="dot">
+                                <img src="imeges/dot.jpg" class="dot">
+                                <img src="imeges/slaid-richt.jpg" class="slaid-richt">
                             </div>
                         </div>
                         <div class="section2__nav-imegs">
@@ -103,11 +114,11 @@
                                 <div class="section3-form__bloc">
                                     <div class="section3-form__bloc_1">
                                         <label class="section3-form__bloc_label">Name</label><br>
-                                        <input class="section3-form__bloc_in" type="text" id="name" value="What is your name">
+                                        <input class="section3-form__bloc_in" type="text" id="name" placeholder="What is your name">
                                     </div>
                                     <div class="section3-form__bloc_1">
                                         <label class="section3-form__bloc_label">Phone</label><br>
-                                        <input class="section3-form__bloc_in" type="text" id="phone" value="Your phone number">
+                                        <input class="section3-form__bloc_in" type="text" id="phone" placeholder="Your phone number">
                                     </div>
                                     <div class="button-mob__pozicion">
                                         <button class="button submitform mobform">Submit</button>
@@ -237,8 +248,13 @@
                     <div class="section5__container">
                         <div class="section5__container_back">
                             <div class="section5__container_nav">
-                                <h1 class="section5__container_h1">We realize your<br> wildest fantasies</h1>
-                                <div class="imege-mob"></div>
+                                <div class="h1-img-mob">
+                                    <h1 class="section5__container_h1">We realize your<br> wildest fantasies</h1>
+                                    <div class="imege-mob im__mob">
+                                        <div class="button-container"><button class="button_slaid leftslaid"></button><button class="button_slaid richtslaid">
+                                            </button></div>
+                                    </div>
+                                </div>
                                 <nav class="section5__nav">
                                     <ul>
                                         <li class="section5__container_li"><a href="#">American classic</a></li>
@@ -276,7 +292,6 @@
                     </div>
                 </div>
             </section>
-            <div class="imege-mob"><img src="imeges/sect6.jpg" class="imegesect">
             </div>
             <section class="section6">
                 <div class="container">
@@ -347,10 +362,10 @@
                             <h3 class="section7__form_h3">have any questions?</h3>
                             <form>
                                 <div class="section7__form_name-tel">
-                                    <div class="section7__form_block1"><label class="section4__form_label">Name<br></label>
-                                        <input class="section4__form_in" type="text" id="name" value="What is your name"></div>
-                                    <div class="section7__form_block1"><label class="section4__form_label">Phone</label><br>
-                                        <input class="section4__form_in" type="text" id="phone" value="Your phone number"></div>
+                                    <div class="section7__form_block1"><label class="section4__form_label">Name</label><br><span class="section4__form_span">What is your name</span>
+                                        <input class="section4__form_in" type="text" id="name"></div>
+                                    <div class="section7__form_block1"><label class="section4__form_label">Phone</label><br><span class="section4__form_span">Your phone number</span>
+                                        <input class="section4__form_in" type="text" id="phone"></div>
                                 </div>
                                 <div class="section7__form_block2"><label class="section4__form_label">Question</label><br><span class="section4__form_span">Your phone number:</span><input class="section4__form_in" type="text" id="phone"></div>
                                 <div class="section7__form_checkbox">
@@ -361,13 +376,14 @@
                         </div>
                     </div>
                     <div class="container__mob">
+                        <h1 class="section7__h1">Rostov-on-Don, Nansen St., 239 Shopping Center<br> Decorum Tel +7 (928) 768 32 29</h1>
                         <div class="container__h1-img">
-                            <h1 class="section7__h1">Rostov-on-Don, Nansen St., 239 Shopping Center<br> Decorum Tel +7 (928) 768 32 29</h1>
                             <div class="section7__icon"><button class="masage post
 "></button><button class="masage inst"></button></div>
                         </div>
                         <div class="section7_kart">
-                            <img src="imeges/kart.jpg " class="section7_kart2"></div>
+                            <div class="section7_kart2"></div>
+                        </div>
                     </div>
                     <div class="section7_overlo"></div>
                 </div>
@@ -383,6 +399,8 @@
                         <li class="header-navigation__item"><a href="#">PROJECTS</a></li>
                         <li class="header-navigation__item"><a href="#">MEASUREMENT</a></li>
                         <li class="header-navigation__item"><a href="#">TEAM</a></li>
+                        <li class="header-navigation__item"><a href="#">REVIEWS</a></li>
+                        <li class="header-navigation__item"><a href="#">CONTACTS</a></li>
                         <li class="header-navigation__tel"><a href=" tel:+7(928)7683239">+7 (928) 768-32-39</a></li>
                     </ul>
                 </nav>
